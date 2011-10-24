@@ -1,5 +1,5 @@
 #/usr/bin/env ruby
 
-require "appstorm_concatenator/concatenate"
+require "appstorm_concatenator/concatenator"
 
 Concatenator.concatenate_images(ARGV[0], ARGV[1], ARGV[2])
