@@ -1,3 +1,5 @@
+require "RMagick"
+
 module AppstormConcatenator
   include Magick
   
