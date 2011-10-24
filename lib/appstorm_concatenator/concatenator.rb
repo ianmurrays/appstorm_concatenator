@@ -1,9 +1,9 @@
 require "RMagick"
 
 module AppstormConcatenator
-  include Magick
-  
   class Concatenator
+    include Magick
+    
     def self.concatenate_images(image_1, image_2, output)
       # Create the canvas
       canvas = Image.new(620, 465) { self.background_color = "black" }
